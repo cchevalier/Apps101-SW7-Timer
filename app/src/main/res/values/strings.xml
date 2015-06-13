@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SW7 Timer</string>
+
+    <string name="sw7">Star Wars 7</string>
+
+    <string name="intro">Star Wars Episode 7\nis coming to your galaxy</string>
+    <string name="counter">in xxx days.</string>
+    <string name="patience">May the Patience be with you&#8230;</string>
+    
+    
+    <string name="action_about">About</string>
+
+</resources>

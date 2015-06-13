@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:background="#000000"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.acnr.sw7timer.MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="true" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+    
+    <ImageView
+        android:id="@+id/ivSW7"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/sw7"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sw7" />
+    
+    <TextView
+        android:id="@+id/textIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivSW7"
+        android:layout_centerInParent="true"
+        android:paddingTop="20dp"
+        android:textColor="#FFFE00"
+        android:gravity="center"
+        android:text="@string/intro" />
+
+   
+    <TextView
+        android:id="@+id/textCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textIntro"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFE00"
+        android:gravity="center"
+        android:text="@string/counter" />
+
+    <TextView
+        android:id="@+id/textEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textCounter"
+        android:layout_centerInParent="true"
+        android:paddingTop="20dp"
+        android:textColor="#FFFE00"
+        android:gravity="center"
+        android:text="@string/patience" />
+ 
+    	</RelativeLayout>
+    
+    </ScrollView>
+    
+
+</RelativeLayout>
